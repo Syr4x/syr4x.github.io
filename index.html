@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="iconos/css/all.css">    
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <!-- lado izquierdo, contacto persona -->
+    <aside id="izquierda">
+        <img src="foto_perfil.jpg" id="foto"/>
+        <div>
+          <h2> <i class="fa-solid fa-address-book"></i>CONTACTO</h2>
+          <p><i class="fa-solid fa-phone"></i>(770) 702-4199</p>
+          <p><i class="fa-solid fa-envelope"></i> judd.olson@example.com</p>  
+          <p><i class="fa-brands fa-linkedin"></i> /juddolson</p>
+        </div>
+        <div>
+            <h2><i class="fa-solid fa-star"></i>HABILIDADES</h2>
+            <p>Iniciativa <span id="relleno"></span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+            <p>Trabajo en equipo<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>  
+            <p>Inglés<span id="relleno2"></span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
+          </div>
+          <div>
+            <h2><i class="fa-solid fa-user"></i>REFERENCIAS</h2>
+            <p><i class="fa-solid fa-user"></i> Melissa Price <br><i class="fa-solid fa-phone"></i> (964) 374-9709</p>
+            <p><i class="fa-solid fa-user"></i> Todd Holt <br><i class="fa-solid fa-phone"></i> (272) 377-0037</p>
+          </div>
+    </aside>
+    <!-- lado derecho, experiencia laboral y educación de la persona -->
+    <header class="derecha">
+    <h1 id="nombre">Judd Olson</h1>
+    <h2>IT Consultant & SysAdmin</h2>
+    <p>Con más de 12 años de experiencia en mantenimiento de computadoras,
+        soporte técnico, administración de redes y administración de servidores,
+        tanto en servidores Windows como en Linux y más de 5 años en seguridad informática.
+        Participé del proyecto CasaresLibre, tanto en su difusión como en la instalación de sus servidores.</p>
+    </header>
+    <section class="derecha">
+        <article>
+            <h2>EXPERIENCIA LABORAL</h2>
+        <ul>
+            <li><h3>Jefe Oficina de Tecnología en E-CORP Company</h3>
+                <h5>Marzo 2013 - actualidad</h5> 
+               
+                <p>- Administrador de Windows Server 2003, 2008 R2, 2012 R2 y 2019 
+                    (Active Directory, DNS, DHCP, VPN, Terminal Service, WSUS, Servidor de archivos)</p>
+                <button class="button" id="btn_ver_mas" >...Ver más</button>
+                <span class="ocultar" id="span_text">
+                    <p>- Administrador de Linux (Nagios, Openvpn, Nodo BlockChain, Wazuh) <br>
+                        - Administrador de redes <br>
+                        - Administrador de servidor NAS QNAP <br>
+                        - Administrador Mikrotik <br>
+                        - Administrador de Switchs HP Administrables (VLANs, STP) <br>
+                        - Administrador de Backups (Bacula, Cobian y Copia de seguridad de windows) <br>
+                        - Gestión de Reclamos de Clientes (Mantis) <br>
+                        - Control de Inventario de Hardware y Software (Ocs Inventory) <br>
+                        - Implementación de Servidor OwnCloud (Almacenamiento en la Nube Privado) <br>
+                        - Reparación y mantenimiento de equipos <br>
+                        - Virtualización (VMware ESXi, VMware vCenter) <br>
+                        - Soporte Técnico Tier 5 <br>
+                        - Representantes de la Municipalidad de Carlos Casares ante la BFA (BLOCKCHAIN FEDERAL ARGENTINA) <br>
+                        - Administrador del Nodo de BlockChain  </p>
+                        <button class="button" id="btn_ver_menos">Ver menos</button>
+                </span>
+            
+        
+            </li><br>
+            <li><h3>Instructor en Centro de Formación Laboral N° 508</h3>
+                <h5>Febrero 2021 - actualidad</h5> 
+                <p>Dictado del trayecto profesional en Instalación y Soporte de Sistemas Informáticos</p>
+                
+            </li><br>
+            <li><h3>Consultor Externo en Security IT</h3>
+                <h5>Junio 2015 - Octubre 2020</h5> 
+                <p>- Consultoría, Auditoría y Seguridad Informática. <br>
+                    - Optimizacion de Servidores Web para Alto Rendimiento y Disponibilidad</p>
+                <button class="button" id="btn_ver_mas3" >...Ver más</button>
+                <span class="ocultar" id="span_text3">
+                    <p>- Administración de Servidores. <br>
+                        - Reparación de Computadoras
+                    </p>
+                        <button class="button" id="btn_ver_menos3">Ver menos</button>
+                </span>
+            </li><br>
+
+          </ul>
+        </article>
+        <article id="educacion">
+            <h2>EDUCACIÓN</h2>
+        <ul>
+            <li><h3>Analista Programador y Desarrollador de Aplicaciones en UNLP</h3>
+                <h5>2009 - 2011</h5> 
+                
+            </li> <br>
+            <li><h3>Técnico en Infórmatica Personal y Profesional en EEST N° 1</h3>
+                <h5>2008</h5> 
+                
+          </ul>
+        </article>
+    </section>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

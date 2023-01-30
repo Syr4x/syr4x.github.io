@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: Ubuntu;
+}
+
+ul {
+    list-style-type: circle;
+    color: #2874A6;
+}
+
+ul li p{
+    color: black;
+}
+
+ul li h3{
+    color: black;
+}
+
+ul li h5{
+    color: black;
+}
+
+#izquierda {
+float:left;
+width:21%;
+background-color: #17202A ;
+display: inline;
+padding: 10px;
+color: white;
+height: 1000px;
+}
+
+.derecha{
+    float:right;
+    width:75%;
+    display:inline;
+}
+
+h2{
+    background-color: #2874A6;
+    color: white;
+    padding-left: 10px;
+}
+
+#foto{
+    height: 210px;
+    margin: auto;
+    display: block;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+
+#nombre{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    
+}
+
+section{
+    margin-top: 30px;
+}
+
+h3,h4,h5{
+    margin: 0px;
+    padding: 0px;
+}
+
+#educacion{
+    margin-top: 37px;
+}
+
+.button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+i {
+    padding: 5px;
+}
+
+#relleno {
+    margin-left: 62px;
+}
+
+#relleno2 {
+    margin-left: 86px;
+}
+
